@@ -5,13 +5,13 @@
   padding: 24px;
   height: 100vh;
   background-color: var(--bg-sidebar);
-  width: 100%; /* Mobile default */
+  width: 100%; 
 }
 
 /* Tablet and up: fixed sidebar */
 @media screen and (min-width: 768px) {
   .sidebar {
-    width: 240px; /* ← match Figma */
+    width: 240px; 
     position: fixed;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 16px; /* or whatever spacing is needed */
+  margin-bottom: 16px; 
 }
 
 .createBoardText {
@@ -52,7 +52,7 @@
 .plusIcon {
   width: 20px;
   height: 20px;
-  color: var(--text-color); /* or --text-sidebar depending on your context */
+  color: var(--text-color); 
 }
 
 .helpCard {
@@ -97,5 +97,5 @@
 .logoutIcon {
   width: 24px;
   height: 24px;
-  fill: var(--text-sidebar); /* Fill or color works depending on SVG */
+  fill: var(--text-sidebar); 
 }
